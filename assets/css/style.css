@@ -119,12 +119,13 @@ a:hover{
 
 #hamburger-nav{
   display: none;
+  color: var(--t-color);
   top: 0;
   
 }
 
 .logo-nav a{
-  color: var(--nv-color);
+  color: var(--t-color);
   font-size:2.5rem;
   font-style: oblique;
   font-weight: 900;
@@ -144,12 +145,15 @@ a:hover{
 .hamburger-menu{
   position: relative;
   display: inline-block;
+  color: var(--t-color);
+
 }
 
 .hamburger-icon{
   display:flex;
   flex-direction: column;
   justify-content: space-between;
+  color: var(--t-color);
   height:24px;
   width:30px;
   cursor:pointer;
@@ -179,7 +183,7 @@ a:hover{
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color:black;
+  color:var(--t-color);
   text-decoration:none;
   transition: all 0.8 ease-in-out;
 }
