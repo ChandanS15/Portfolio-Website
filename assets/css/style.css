@@ -256,7 +256,7 @@ body{
 
 
 .socials-link{
-  color: var(--nv-color);
+  color: var(--t-color);
   list-style: none;
   align-items: left;
   text-decoration: none;
@@ -264,7 +264,7 @@ body{
   cursor: pointer;  
 }
 .socials-link:hover{
-  color: var(--color1);
+  color: var(--color2);
   text-decoration: none;
   text-decoration-line: none;  
 }
