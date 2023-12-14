@@ -134,6 +134,10 @@ body{
     text-align:center;
 }
 
+.meun li a:hover{
+  color: var(--color2)
+}
+
 .menu li a ::after{
     content:"";
     position: absolute;
